@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 from collections import defaultdict
 
@@ -8,7 +9,7 @@ from GeneETL import fetch_genes_info
 
 if __name__ == '__main__':
 
-    input_gene_symbols = ['TP53', 'BRCA1']
+    input_gene_symbols = ['TP53', 'BRCA1', 'ALK', 'RET']
     #input_gene_symbols = []
     #for row in open('/home/isaksson/Desktop/famous_gene/refseq_gene_symbols.txt'):
     #    input_gene_symbols.append(row.strip())
