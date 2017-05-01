@@ -1,0 +1,5 @@
+mygene==3.0.0
+oauthlib==2.0.1
+requests==2.12.5
+requests-oauthlib==0.7.0
+TwitterAPI==2.4.3
